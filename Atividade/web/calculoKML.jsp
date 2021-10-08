@@ -26,7 +26,7 @@
                     captanque = Float.parseFloat(captanque_txt);
             }           
             
-            if ( autonomia > 0 && captanque > 0 ){
+            if ( autonomia > 0 && captanque > 0 && autonomia > captanque){
                 kml = autonomia / captanque;
 
                 out.print("Automia do Veículo: "+autonomia+" Quilômetros");
