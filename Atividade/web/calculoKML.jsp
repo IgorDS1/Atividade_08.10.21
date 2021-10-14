@@ -35,7 +35,7 @@
                 out.print("Capacidade do Tanque: "+captanque+" Litros");
                 out.print("<br>");
                 out.print("<br>");
-                out.print("Média de consumo: "+kml+" KM/L");
+                out.print("Média de consumo: "+Math.round(kml)+".0"+" KM/L");
             
             }else{
                 
